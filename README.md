@@ -30,6 +30,10 @@ This document provides an overview of various language model methodologies, high
 
 ---
 
+## Design of the Application
+For detailed design information, please refer to the [Design Document](./design.md).
+
+
 ## **ReAct (Reasoning and Acting)**
 
 ReAct agents interleave reasoning and action steps, initially reasoning about the task before executing a function. This approach uses a "Few Shot" prompt technique, where human annotators provide examples of their thoughts and actions in language.
