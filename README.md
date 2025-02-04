@@ -154,7 +154,11 @@ Toolformer has zero-shot capabilities and broad applicability due to the ability
 | **Toolformer** | Versatile, suitable for multiple real-world applications |
 
 
+### Challenges & Improvements
 
+1. Agent might not always return a promising result.
+2. It can be further improved by actually using a DB of ECommerce website.
+3. There can be more use of ATC (Automatic Tool Chain) to incorporate more robust code.
 
 
 # FashionAgent
