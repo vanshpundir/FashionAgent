@@ -207,4 +207,9 @@ To start the frontend application using Streamlit, follow these steps:
    ```
    This will open the application in your default web browser.
 
+4. **Application Screenshots**
+
+![Local Image](./chat_1.png)
+![Local Image](./chat_2.png)
+
 By following these steps, you will have both the backend and frontend of the FashionAgent application running locally.
