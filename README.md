@@ -166,3 +166,45 @@ Toolformer has zero-shot capabilities and broad applicability due to the ability
 
 
 # FashionAgent
+
+## Starting the Application
+
+To start the backend application using Uvicorn, follow these steps:
+
+1. **Navigate to the project directory**:
+   Open your terminal and navigate to the directory where `main.py` is located.
+
+2. **Set the OpenAI API Key**:
+   Export your OpenAI API key by executing the following command:
+   ```bash
+   export OPENAI_API_KEY='your_openai_api_key_here'
+   ```
+
+3. **Run the Uvicorn server**:
+   Execute the following command to start the FastAPI application:
+   ```bash
+   uvicorn main:app --host 0.0.0.0 --port 8010
+   ```
+   This command will start the server on `http://localhost:8010`.
+
+## Launching the Frontend with Streamlit
+
+To start the frontend application using Streamlit, follow these steps:
+
+1. **Navigate to the project directory**:
+   Open your terminal and navigate to the directory where `frontend.py` is located.
+
+2. **Set the OpenAI API Key**:
+   Ensure your OpenAI API key is exported by executing the following command if not already done:
+   ```bash
+   export OPENAI_API_KEY='your_openai_api_key_here'
+   ```
+
+3. **Run the Streamlit application**:
+   Execute the following command to start the Streamlit app:
+   ```bash
+   streamlit run frontend.py
+   ```
+   This will open the application in your default web browser.
+
+By following these steps, you will have both the backend and frontend of the FashionAgent application running locally.
